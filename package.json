@@ -1,0 +1,23 @@
+{
+  "name": "Life Advices",
+  "version": "1.0.0",
+  "description": "A collection of helpful life advices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomlutzenberger/life-advices.git"
+  },
+  "keywords": [
+    "Life",
+    "advice"
+  ],
+  "author": "Tom Lutzenberger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomlutzenberger/life-advices/issues"
+  },
+  "homepage": "https://tomlutzenberger.github.io/life-advices/"
+}
