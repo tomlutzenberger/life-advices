@@ -1,0 +1,481 @@
+//- Declarations
+
+mixin quote(name)
+  br
+  small
+    em
+      != '&ndash; '
+      = name
+
+
+//- Markup
+doctype html
+html(lang="en")
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+
+    title= 'Life advices'
+    link(href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u' crossorigin='anonymous')
+    link(href='https://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet')
+
+
+    style
+      != 'body { font-family: "Libre Baskerville", serif; }'
+      != 'li { margin-bottom: 25px; }'
+      != 'blockquote { border-left: 1px solid #777; font-size: 1em; margin-left: 20px; padding: 5px 20px; quotes: "“" "”" "‘" "’"; }'
+      != 'blockquote q:before { content: open-quote; }'
+      != 'blockquote q:after { content: close-quote; }'
+  body
+
+    .container
+      .row
+        .col-xs-6.col-xs-offset-3
+          h1.text-center Life advices
+          hr
+
+          ol
+            li The past cannot be changed, it can only be accepted.
+            li Always do what is right for yourself.
+            li "There is nothing noble in being superior to your fellow-man; true nobility is being superior to your former self."
+              +quote('Ernest Hemingway')
+            li If a child hands you a phone, you answer it.
+            li Look for something positive in each day, even if you have to look a little harder.
+            li The first to apologize is the bravest, the first to forgive is the strongest and the first to forget is the happiest.
+            li Don't take life for granted.
+            li Find three hobbies you love: One to make you money, one to keep you in shape, and one to be creative.
+            li Never give up. Keep going.
+            li "Complaining about a problem without posing a solution is called whining."
+              +quote('Teddy Roosevelt')
+            li Stop thinking about what you can do wrong and focus on what you can do right.
+            li Exist to be happy, not to impress.
+            li Invest in yourself.
+            li You only fail if you quit.
+            li Don't look back. You are not going that way.
+            li Learn to let go of the things you cannot change.
+            li Always drink enough.
+            li It is up to you to see the beauty of everyday things.
+            li Never base you life decisions on advice from people who don't have to deal with the results.
+            li Don't let yourself be controlled by three things: people, money or past experiences.
+            li Be who you needed when you were younger.
+            li You are free to choose, but you are not free from the consequence of your choice.
+            li There are three solutions to every problem: Accept it, change it, leave it. If you can't accept it, change it. If you can't change it, leave it.
+            li If you are not obsessed with your life, change it.
+            li "If you see something beautiful in someone, speak it."
+              +quote('Ruthie Lindsey')
+            li "Always go with the choice that scares you the most, because that's the one that is going to help you grow."
+              +quote('Caroline Myss')
+            li Go for a walk daily.
+            li The grass isn't greener on the other side. It's greener where you water it.
+            li When life knocks you down calmly get up, smile, and very politely say "You hit like a bitch!".
+            li If you don't go after what you want, you'll never have it.
+            li If you don't ask, the answer is always "no".
+            li If you don't step forward, you're always in the same place.
+            li If you love something, love it completely, cherish it, say it, but most importantly, show it.
+            li It's important to give all you have while you have the chance.
+            li There are plenty of ways to enter the pool. The stairs are not one of them.
+            li Never cancel dinner plans by text message.
+            li Don't knock it till you try it.
+            li If a street performer makes you stop walking, you owe him a buck.
+            li Just because you can doesn't mean you should.
+            li Don't dumb yourself down.
+            li You only get one chance to notice a new haircut.
+            li If you're staying more than one night, unpack.
+            li Expect the seat in front of you to decline. Prepare for it.
+            li Keep a picture of your first pet, car and girl/boyfriend.
+            li Hold your heroes to a high standard.
+            li A suntan is earned, not bought.
+            li Never lie to your doctor.
+            li All guns are loaded.
+            li Don't mention sunburns.
+            li The best way to show thanks is to wear it. Even if it's only once.
+            li Take a vacation from your cell phone, internet and TV once a year.
+            li Don't fill up on bread, no matter how good.
+            li A handshake beats an autograph.
+            li Don't linger in the doorway. In or out.
+            li If you choose to go in drag, don't sell yourself short.
+            li If you want to know what makes you unique, sit for a caricature.
+            li Never get your haircut the day of a special event.
+            li Be mindful of what comes between you and the earth. Always buy good shoes, tires and sheets.
+            li Never eat lunch at your desk if you can avoid it.
+            li When you're with new friends, don't just talk about old friends.
+            li Eat lunch with the new kids.
+            li When traveling, always keep your wits about you. No matter where you are.
+            li It's never too late for an apology.
+            li Don't pose with booze.
+            li If you have the right of way, take it.
+            li You don't get to choose your own nickname.
+            li When you marry someone, remember you marry their entire family.
+            li Never push someone off a dock.
+            li Under no circumstances should you ask a woman if she is pregnant.
+            li It's not enough to be proud of your ancestry, live up to it.
+            li Don't make a scene.
+            li When giving a thank you speech, short and sweet is the best.
+            li Know when to ignore the camera.
+            li Never gloat.
+            li Invest in great luggage.
+            li Make time for your mother on your birthday. It's a special day for her, too.
+            li When opening presents, no one likes a good guesser.
+            li Sympathy is a crutch. Never fake a limp.
+            li Give credit. Take blame.
+            li Suck it up every now and then.
+            li Never be the last one in the pool.
+            li Don't stare.
+            li Address everyone that carries a firearm professionally.
+            li Stand up to bullies. You only have to do it once.
+            li If you've made your point, stop talking.
+            li Admit it, when you're wrong.
+            li If you offer to help, don't quit until the job is done.
+            li Look people in the eye when you thank them.
+            li Thank the bus driver.
+            li Never answer the phone on the dinner table.
+            li Forgive yourself for your mistakes.
+            li Know at least one good joke.
+            li Don't boo. Even the ref is somebody's son.
+            li Know how to cook one good meal.
+            li Learn how to drive manual/stick shift.
+            li Be cool to younger kids. Reputation is built over a lifetime.
+            li It's okay to go to the movies by yourself.
+            li Dance with your mother/father.
+            li Don't lose your cool. Especially at work.
+            li Always thank the host.
+            li If you don't understand, ask before it's too late.
+            li Know the size of your girl/boyfriend's clothes.
+            li There is nothing wrong with a plain t-shirt.
+            li Be a good listener. Don't just take your turn to talk.
+            li Keep your word.
+            li In college always sit in the front. You'll stand out immediately and come grade time it will come in handy.
+            li Carry your mother's bags. She carried you for nine months.
+            li Be patient with airport security. They are just doing their job.
+            li Don't be the talker in a movie.
+            li The opposite sex likes people who shower.
+            li You are what you do. Not what you say.
+            li Learn to change tire.
+            li Be kind. Everyone has a hard fight ahead of them.
+            li An hour with grandparents is time well spent. Ask for advice if you need it.
+            li Don't litter.
+            li If you have a sister, get to know her boyfriend. Your opinion is important.
+            li You won't always be the strongest or the fastest. But you can be the toughest.
+            li Never call someone before 9am or after 9pm.
+            li Buy the orange properties in monopoly.
+            li Make the little things count.
+            li Always wear a bra to work.
+            li There is a fine line between looking sultry and slutty. Find it.
+            li You're never too old to need your mom.
+            li Ladies, if you make the decision to wear heels on the first date commit to keeping them on and keeping your mouth shut about how much your feet kill you.
+            li Know the words to your national anthem.
+            li Your dance moves might not be the best, but making a fool of yourself is more fun than sitting on the bench alone.
+            li Smile at strangers.
+            li Make goals.
+            li Being old is not dictated by your bedtime.
+            li Don't fear alone time.
+            li Don't dwell on the past.
+            li Don't feel the world owes you.
+            li Don't expect immediate results.
+            li Don't worry about pleasing everyone.
+            li Don't waste time feeling sorry for yourself.
+            li Don't waste energy on things you can't control.
+            li Don't let others influence your emotions.
+            li Don't resent on other people's success.
+            li Don't shy away from responsibilities.
+            li Don't give up after the first failure.
+            li Don't fear taking calculated risks.
+            li Have a firm handshake.
+            li Look people in the eye.
+            li In a fight, hit first and hit hard.
+            li Keep secrets.
+            li Never give up.
+            li Make it a habit to do nice things for people.
+            li Never deprive someone of hope. It might be all that they have.
+            li Give people a second chance, but not a third.
+            li Become the most positive and enthusiastic person you know.
+            li Be a good loser.
+            li Be a good winner.
+            li Think twice before burdening a fried with a secret.
+            li When someone hugs you let them be the first to let go.
+            li Be modest.
+            li Keep it simple.
+            li Don't burn bridges. You'll be surprised how many times you have to cross the same river.
+            li Never waste an opportunity to tell someone you love them.
+            li Take charge of your attitude. Don't let someone else choose it for you.
+            li Visit friend and relatives in the hospital.
+            li Begin each day with some of your favourite music.
+            li Answer the phone with a smile and enthusiasm and energy in your voice.
+            li Keep a notepad and a pencil on your bed-side table. The best ideas sometimes strike at 3am.
+            li Show respect for everyone who works for a living, regardless how trivial their job is.
+            li Send your loved ones flowers. Think of a reason later.
+            li Become someones hero.
+            li Marry only for love.
+            li Count your blessings.
+            li Compliment the meal when you're a guest in someone's home.
+            li Wave at the children on a school bus.
+            li Don't expect life to be fair.
+            li Never hit a girl/woman.
+            li Do what others won’t.
+            li "When you want to succeed as bad as you want to breathe, then you'll be successful!"
+              +quote('Eric Thomas')
+            li Stop wishing. Start doing.
+            li "Have no fear of perfection. You'll never reach it."
+              +quote('Salvador Dali')
+            li Don't pretend to be something you're not and people will love you for who you are.
+            li When looking for love find someone who brings out the best in you and helps you to become better.
+            li To be greedy is to be lonely. Life's joys are even better when you can share with a friend.
+            li Life is not about popularity. It's about love and sacrifice.
+            li Your differences are what makes you incredible.
+            li You are never alone.
+            li Don't worry about expectations. Be yourself.
+            li It's not enough to just wish, you've got to work for your dream.
+            li Give credit where credit is due.
+            li Even sleeping beauty had to live in a cottage before she got her castle.
+            li Sometimes you have to face your deepest fears in order to make your wildest dreams come true.
+            li Don't be afraid to work with someone who is different from you. They might become your best friend.
+            li If you don't know where you want to go, it doesn't matter which path you take.
+            li Be like a tree, let the dead leafs drop.
+            li Courage is like a muscle. We strengthen it by use.
+            li Dance like no one is watching.
+            li Sing like no one is listening.
+            li Love like you've never been hurt.
+            li Live like heaven is on earth.
+            li Laugh like no one is listening.
+            li Dream like there are no impossibilities.
+            li Play like there are no winners.
+            li Give like you have plenty.
+            li Smile till your face hurts.
+            li Cherish your family and friends everyday.
+            li It's not about being the best. It's about being better than you were yesterday.
+            li There is always a way.
+            li Sometimes the wrong choices bring us to the right places.
+            li Forgive yourself. Not just once. Again, and again, and again. As many times as it takes to find peace.
+            li Never let the things you want make you forget the things you have.
+            li Stay away from negative people, they have a problem for every solution.
+            li Don't miss out on something that could be amazing, just because it could also be difficult.
+            li Anything that costs you your peace is too expensive.
+            li No matter how big your house is, how recent your car is, or how big your bank account is. Our graves will always be the same size. Stay humble.
+            li A smart person knows what to say, a wise person knows whether to say it or not.
+            li You are always responsible for how you act, no matter how you feel.
+            li The key to success is playing the hand you were dealt like it was the hand you wanted.
+            li Once you stop chasing the wrong things, the right ones catch you.
+            li Don't think about what can happen in a month. Don't think about what can happen in a year. Just focus on the 24 hours in front of you and do what you can to get closer to where you want to be.
+            li Stop expecting loyalty from people who can't even give you honesty.
+            li Never let success get to your head and never let failure get to your heart.
+            li "Do not pray for an easy life, pray for the strength to endure a difficult one."
+              +quote('Bruce Lee')
+            li If you are too lazy to plow, don't expect a harvest.
+            li Never apologize for having high standards. People who really want to be in your life will rise up to meet them.
+            li Live in such a way that if someone spoke badly of you no one would believe it.
+            li Knowledge is of no value unless you put it into practice.
+            li Rock bottom has built more heroes than privilege.
+            li It's okay to be scared. Being scared means you are about to do something really, really brave.
+            li The idea is to die young. As late as possible.
+            li Become so financially secure that you forget that it's payday.
+            li The finest souls are those who gulped pain and avoided making others taste it.
+            li Just when the caterpillar thought the world was ending, he turned into a butterfly.
+            li "When you talk, you are only repeating what you already know. But if you listen, you may learn something new."
+              +quote('Dalai Llama')
+            li You never stop learning.
+            li You're not rich until you have something that money can't buy.
+            li The meaning of life is to give life a meaning.
+            li What you do today is important because you are exchanging a day of your life for it.
+            li If there are no ups and downs in your life, it means you are dead.
+            li People donÄt want to hear the truth because they don't want their illusions destroyed.
+            li Before Alice got to Wonderland she had to fall.
+            li "You never know how strong you are until being strong is the only choice you have."
+              +quote('Bob Marley')
+            li Hearts are wild creatures, that's why your ribs are cages.
+            li Worrying is stupid. It's like walking around with an umbrella waiting for it to rain.
+            li "Never trust your fears. They don't know your strength."
+              +quote('Athena Singh')
+            li Failure is success in progress.
+            li An arrow can only be shot by pulling it backward. So when life is dragging you back with difficulties, it means that it's going to launch you into something great. So just focus and keep aiming.
+            li "The two most important days in your life are the day you are born and the day you find out why."
+              +quote('Mark Twain')
+            li "Don't ever take a fence down until you know why it was put up."
+              +quote('Robert Frost')
+            li Not everyone deserves to know the real you. Let them criticise who they think you are.
+            li "We are all broken. That's how the light gets in."
+              +quote('Ernest Hemingway')
+            li "The storm can be just as beautiful as the rainbow, honor them both."
+              +quote('Alex Elle')
+            li "What we see depends mainly on what we look for."
+              +quote('John Lubbock')
+            li "If everyone were cast in the same mold, there would be no such thing as beauty."
+              +quote('Charles Darwin')
+            li "Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth."
+              +quote('Marcus Aurelius')
+            li You can't change the wind, but you can adjust the sail.
+            li Walk away from anything that gives you bad vibes. There is no need to explain or make sense of it. It's your life.
+            li If your absence doesn't affect them, your presence never mattered.
+            li We live in a jar and think the lid is the sky.
+            li Be happy. Not because everything is perfect. But because you choose to focus on the perfect moments.
+            li At the end of the day, you can either focus on what's tearing you apart, or you can focus on what's keeping you together.
+            li Work for a cause, not for applause. Live life to express, not to impress.
+            li Life is like a camera. Capture the good times, develop from the negatives and if things don't work out, take another shot.
+            li Worry about your character and not your reputation. Because your character is who you are and your reputation is only what people think of you.
+            li Pain doesn't just show up in our lifes for no reason. It's a sign that something in our lifes need to change.
+            li Train your mind to see the good in every situation.
+            li Kindness is a language the blind can see and the deaf can hear.
+            li It's not who you are that holds you back, it's who you think you're not.
+            li Someday, everything will make perfect sende. So for now, laugh at the confusion, smile through the tears and keep reminding yourself that everything happens for a reason.
+            li Let them miss you. Sometimes when you're always available, they take you for granted because they think you'll always stay.
+            li The greatest challenge in life is discovering who you are. The second greatest challenge is being happy with what you find.
+            li Sometimes, the most important life lessons are the ones we end up learning the hard way.
+            li If you cannot do great things, do small things in a great way.
+            li "Whenever you find yourself doubting how far you can go, just remember how far you have come. Remember everything you have faced, all the battles you have won, and all the fears you have overcome."
+              +quote('Unknown')
+            li Growth is painful. Change is painful. But nothing is as painful as staying stuck somewhere you don't belong.
+            li Make peace with you past, so it doesn't spoil your present.
+            li What others think of you is none of your business.
+            li Time heals almost everything. Give the time some time.
+            li No one is the reason of your happiness, except yourself.
+            li Don't compare your life with others. You have no idea what their journey is all about.
+            li Stop thinking too much. It's alright not to know all the answers.
+            li Smile, you don't own all the problems in the world.
+            li Sometimes life is about risking everything for a dream no one can see but you.
+            li If you want to achieve greatness, stop asking for permission.
+            li "Failure is the opportunity to begin again more intelligently."
+              +quote('Henry Ford')
+            li Everything in your life is a reflection of a choice you have made. If you want a different result, make a different choice.
+            li Sometimes you need to step outside, get some fresh air and remind yourself of who you are and who you want to be.
+            li Do it now. Sometimes, <em>"later"</em> becomes <em>"never"</em>.
+            li "If you can dream it, you can do it"
+              +quote('Walt Disney')
+            li "The way to get started is to quit talking and start doing."
+              +quote('Walt Disney')
+            li "It takes twenty years to build a reputation and five minutes to ruin it. If you think about that, you'll do things differently."
+              +quote('Warren Buffet (CEO of Berkshire Hathaway)')
+            li "Innovation distinguishes between a leader and a follower."
+              +quote('Steve Jobs (Co-Founder of Apple)')
+            li "I have not failed. I've just found 10'000 ways that won't work."
+              +quote('Thomas Edison (American Inventor and Businessman)')
+            li "If you don't build your dream, someone will hire you to help build theirs."
+              +quote('Tony Gaskins (Motivational Speaker)')
+            li "Don't play games that you don't understand, even if you see lots of people making money from them."
+              +quote('Tony Hsieh (CEO of Zappos)')
+            li "You don't learn to walk by following rules. You learn by doing and by falling over."
+              +quote('Richard Branson (Founder of Virgin Group)')
+            li "Never give up, because you never know if the next try is going to be the one that works."
+              +quote('Mary Kay Ash (Founder of Mary Kay Cosmetics)')
+            li "The fastest way to change yourself is to hang out with people who are already the way you want to be."
+              +quote('Reid Hoffman (Co-Founder of LinkedIn)')
+            li "You shouldn't focus on why you can't do something, which is what most people do. You should focus on why perhaps you can and be one of the exceptions."
+              +quote('Steve Case (Co-Founder of AOL)')
+            li "In the future, ther will be no female leaders. There will just be leaders."
+              +quote('Sheryl Sandberg (COO of Facebook)')
+            li "It's fine to celebrate success but it is more important to heed the lessons of failure."
+              +quote('Bill Gates (Co-Founder of Microsoft)')
+            li "I choose a lazy person to do a hard job, because a lazy person will find an easy way to do it."
+              +quote('Bill Gates (Co-Founder of Microsoft)')
+            li "Don't worry about failure. You only have to be right once."
+              +quote('Drew Houston (Founder of Dropbox)')
+            li "Ideas are easy. Implementation is hard."
+              +quote('Guy Kawasaki (Co-Founder of Alltop)')
+            li "The most dangerous poison is the felling of achievement. The antidote is to every evening think what can be done better tomorrow."
+              +quote('Ingvar Kamprad (Founder of IKEA)')
+            li A drop is an ocean by itself.
+            li Say 'Please' and 'Thank you'.
+            li Work hard.
+            li Mind your manners.
+            li Offer a lady your seat.
+            li Don't curse.
+            li Extend a firm handshake.
+            li Keep your word.
+            li Respect your elders.
+            li Always make eye contact.
+            li Open doors for others.
+            li Stand up straight.
+            li Stay well-groomed.
+            li Act chivalrous.
+            li Read books often.
+            li Have a romantic sensibility
+            li Shay away from gossip.
+            li Be punctual.
+            li Love well.
+            li Stay humble.
+            li You only fail when you stop trying.
+            li Let it all go. See what stays.
+            li "Happiness is when you think, what you say, and what you do are in harmony."
+              +quote('Mahatma Ghandi')
+            li You only live once? False. You live everyday. You only die once.
+            li "Rule your mind or it will rule you."
+              +quote('Buddha')
+            li You will never meet a person with an easy past.
+            li "Tell me and I'll forget. Show me and I may remember. Involve me and I learn."
+              +quote('Benjamin Franklin')
+            li "Do what you have to do until you can do what you want to do."
+              +quote('Oprah Winfrey')
+            li "The future depends on what you do today."
+              +quote('Mahatma Ghandi')
+            li Sometimes following you heart means losing your mind.
+            li If they can leave you so easily, they were never really meant for you. Let them go.
+            li Throw kindness around like confetti.
+            li Never apologize for what you feel. That's like saying sorry for being real.
+            li Enjoy the little things in life, for one day you will look back and realize they were the big things.
+            li "Ignore people who threaten your joy. Literally, ignore them. Say nothing. Don't invite any parts of them into your space."
+              +quote('Alex Elle (Author)')
+            li Don't mock a pain that you haven't endured.
+            li Sometimes, the person you would take a bullet for ends up being the one behind the gun.
+            li You are only responsible for what you say, not for what they understand.
+            li Be picky with your clothes, friends and time.
+            li Only those who care about you can hear when you are quiet.
+            li "Never allow someone to be your priority while allowing yourself to be their option."
+              +quote('Mark Twain')
+            li Finding your passion isn't just about careers and money. It's about finding your authentic self. The one you have buried beneath other people's needs.
+            li Be sure to taste your words before you spit them out.
+            li The distance between dreams and reality is called action.
+            li Sometimes you have to accept the fact that certain things will never go back to how they use to be.
+            li Only dead fish go with the flow.
+            li "If you can't do anything about then let it go. Don't be prisoner to things you can't change."
+              +quote('Tony Gaskins (Motivational Speaker)')
+            li You can't change what's going on around you until you start changing what's going on within you.
+            li The smarter you get, the less you speak.
+            li "Cinderella didn't ask for a prince. She asked for a night off and a dress."
+              +quote('Kiera Cass (Author)')
+            li In life, it's important to know when to stop arguing with people - and simly let them be wrong.
+            li Do you want to be happy? Let go of what's gone, be grateful for what remains and look forward to what is coming.
+            li The best relationship is when you can lay next to each other and just talk about anything and everything.
+            li "A soulmate is someone who appreciates your level of weird."
+              +quote('Bill Murray (Actor)')
+            li Don't expect people to change.
+            li Not everyone deserves to know the real you. Let them criticize who they think you are.
+            li Sometimes you gotta play the role of a fool to fool the fool who thinks they are fooling you.
+            li "Be careful. Not all are what they seem. Some people pretend to be the beach, but they are actually quicksand."
+              +quote('Steve Maraboli (Speaker and Author)')
+            li "We are only as blind as we want to be."
+              +quote('Maya Angelou (Author)')
+            li "Without a sense of urgency, desire loses its value."
+              +quote('Jim Rohn (Entrepreneur, Motivational Speaker and Author)')
+            li Stop putting an effort into those who show no effort towards you. There is only so much you can do before you are wasting your energy and time.
+            li Not everyone you lose is a loss.
+            li Be strong, but not rude. Be kind, but not weak. Be humble, but not timid. Be proud, but not arrogant.
+            li A bad attitude can literally block love, blessings and destiny from finding you. Don't be the reason you don't succeed.
+            li Ego says, 'Once everything falls into place, I will feel peace.". Spirit says, 'Find your peace, then everything will fall into place.".
+            li Be thankful for all the rude, obnoxious and difficult people you meet in life. They serve as an important reminder of how not to be.
+            li Life is a series of thousands of tiny miracles. Notice them.
+            li What consumes your mind, controls your life.
+            li You are what you do, not what you say you do.
+            li You gotta stop watering dead plants.
+            li Sometimes you don't realize you are actually drowning when you are trying to be everyone else's anchor.
+            li The answers you seek never come when the mind is busy. They come when the mind is still.
+            li Dreams don't work unless you do.
+            li You are always one decision away from a totally different life.
+            li "Beginnings are usually scary and endings are usually sad, but it's everything in between that makes it all worth."
+              +quote('Bob Marley')
+            li If they want you in their life, they will put you there. You shouldn' have to fight for a spot.
+            li Don't fell guilty for doing what is best for you.
+            li Having a soft heart in a cruel world is courage, not weakness.
+            li Whoever is trying to bring you down, is already below you.
+            li Never explain yourself to anyone. You don't need anyone's approval. Live your life and do what makes you happy.
+            li When you feel like quitting, think about why you started.
+            li Over time, you will start to notice, that some people just aren't worth it anymore.
+            li Overthinking kills your happiness.
+            li Don't rush things that need time to grow.
+
+      .row
+        .col-xs-12
+          hr
+          footer
+            p.text-center
+              != '2016 by Tom Lutzenberger'
+              br
+              a(href='https://github.com/tomlutzenberger/life-advices' title='Contribute on GitHub' target='_blank') Contribute on GitHub
