@@ -26,16 +26,23 @@ html(lang="en")
 
     style
       != 'body { font-family: "Libre Baskerville", serif; }'
-      != 'li { margin-bottom: 25px; }'
-      != 'blockquote { border-left: 1px solid #777; font-size: 1em; margin-left: 20px; padding: 5px 20px; quotes: "“" "”" "‘" "’"; }'
+      != 'small span { color: #e04; font-size: 1.25em; }'
+      != 'hr { margin-bottom: 40px; margin-top: 40px; }'
+      != 'li { margin-bottom: 25px; padding-left: 15px; }'
+      != 'blockquote { border-left: 1px solid #777; font-size: 1em; margin-left: 10px; padding: 5px 20px; quotes: "“" "”" "‘" "’"; }'
       != 'blockquote q:before { content: open-quote; }'
       != 'blockquote q:after { content: close-quote; }'
+      != 'footer { padding: 10px 0; }'
   body
 
     .container
       .row
         .col-xs-6.col-xs-offset-3
-          h1.text-center Life advices
+          .text-center
+            h1 Life advices
+              br
+              small A collection of helpful life advices
+            small carefully curated with <span>❤</span> by Tom Lutzenberger
           hr
 
           ol
