@@ -33,6 +33,12 @@ html(lang="en")
       != 'blockquote q:before { content: open-quote; }'
       != 'blockquote q:after { content: close-quote; }'
       != 'footer { padding: 10px 0; }'
+      != '.btn-facebook { background: #3b5998; border: 1px solid #3b5998; color: #fff; }'
+      != '.btn-facebook:hover, .btn-facebook:active, .btn-facebook:focus { background: #fff; color: #3b5998; }'
+      != '.btn-twitter { background: #1da1f2; border: 1px solid #1da1f2; color: #fff; }'
+      != '.btn-twitter:hover, .btn-twitter:active, .btn-twitter:focus { background: #fff; color: #1da1f2; }'
+      != '.btn-github { background: #333; border: 1px solid #333; color: #fff; }'
+      != '.btn-github:hover, .btn-github:active, .btn-github:focus { background: #fff; color: #333; }'
   body
 
     .container
@@ -484,8 +490,25 @@ html(lang="en")
       .row
         .col-xs-12
           hr
-          footer
-            p.text-center
+          footer.text-center
+            p
+              a.btn.btn-sm.btn-facebook(href='https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftomlutzenberger.github.io%2Flife-advices%2F' target='_blank')
+                i.fa.fa-fw.fa-lg.fa-facebook
+                != '&nbsp;Share'
+
+              != '&nbsp;'
+
+              a.btn.btn-sm.btn-twitter(href='https://twitter.com/share?text=Life%20advices%20-%20A%20collection%20of%20helpful%20life%20advices&url=https%3A%2F%2Ftomlutzenberger.github.io%2Flife-advices%2F&via=t0mlutzenberger&hashtags=life%2Cadvice' target='_blank')
+                i.fa.fa-fw.fa-lg.fa-twitter
+                != '&nbsp;Tweet'
+
+              != '&nbsp;'
+
+              a.btn.btn-sm.btn-github(href='https://github.com/tomlutzenberger/life-advices' title='Contribute on GitHub' target='_blank')
+                i.fa.fa-fw.fa-lg.fa-github
+                != '&nbsp;Contribute'
+
+            p
               != '2016 by Tom Lutzenberger'
-              br
-              a(href='https://github.com/tomlutzenberger/life-advices' title='Contribute on GitHub' target='_blank') Contribute on GitHub
+
+    script(src='https://use.fontawesome.com/62e8ca775a.js')
