@@ -1,15 +1,9 @@
 //- Declarations
-mixin blockquote(text, name)
+mixin quote(text, name)
   blockquote
     q!= text
     footer= name
 
-mixin quote(name)
-  br
-  small
-    em
-      != '&ndash; '
-      = name
 
 //- Markup
 doctype html
@@ -68,7 +62,7 @@ html(lang='en')
             li The past cannot be changed, it can only be accepted.
             li Always do what is right for yourself.
             li
-              +blockquote("There is nothing noble in being superior to your fellow-man; true nobility is being superior to your former self.", "Ernest Hemingway")
+              +quote("There is nothing noble in being superior to your fellow-man; true nobility is being superior to your former self.", "Ernest Hemingway")
             li If a child hands you a phone, you answer it.
             li Look for something positive in each day, even if you have to look a little harder.
             li The first to apologize is the bravest, the first to forgive is the strongest and the first to forget is the happiest.
@@ -76,7 +70,7 @@ html(lang='en')
             li Find three hobbies you love: One to make you money, one to keep you in shape, and one to be creative.
             li Never give up. Keep going.
             li
-              +blockquote("Complaining about a problem without posing a solution is called whining.", "Teddy Roosevelt")
+              +quote("Complaining about a problem without posing a solution is called whining.", "Teddy Roosevelt")
             li Stop thinking about what you can do wrong and focus on what you can do right.
             li Exist to be happy, not to impress.
             li Invest in yourself.
@@ -92,9 +86,9 @@ html(lang='en')
             li There are three solutions to every problem: Accept it, change it, leave it. If you can't accept it, change it. If you can't change it, leave it.
             li If you are not obsessed with your life, change it.
             li
-              +blockquote("If you see something beautiful in someone, speak it.", "Ruthie Lindsey")
+              +quote("If you see something beautiful in someone, speak it.", "Ruthie Lindsey")
             li
-              +blockquote("Always go with the choice that scares you the most, because that's the one that is going to help you grow.", "Caroline Myss")
+              +quote("Always go with the choice that scares you the most, because that's the one that is going to help you grow.", "Caroline Myss")
             li Go for a walk daily.
             li The grass isn't greener on the other side. It's greener where you water it.
             li When life knocks you down calmly get up, smile, and very politely say "You hit like a bitch!".
@@ -243,10 +237,10 @@ html(lang='en')
             li Never hit a girl/woman.
             li Do what others won’t.
             li
-              +blockquote("When you want to succeed as bad as you want to breathe, then you'll be successful!", "Eric Thomas")
+              +quote("When you want to succeed as bad as you want to breathe, then you'll be successful!", "Eric Thomas")
             li Stop wishing. Start doing.
             li
-              +blockquote("Have no fear of perfection. You'll never reach it.", "Salvador Dali")
+              +quote("Have no fear of perfection. You'll never reach it.", "Salvador Dali")
             li Don't pretend to be something you're not and people will love you for who you are.
             li When looking for love find someone who brings out the best in you and helps you to become better.
             li To be greedy is to be lonely. Life's joys are even better when you can share with a friend.
@@ -289,7 +283,7 @@ html(lang='en')
             li Stop expecting loyalty from people who can't even give you honesty.
             li Never let success get to your head and never let failure get to your heart.
             li
-              +blockquote("Do not pray for an easy life, pray for the strength to endure a difficult one.", "Bruce Lee")
+              +quote("Do not pray for an easy life, pray for the strength to endure a difficult one.", "Bruce Lee")
             li If you are too lazy to plow, don't expect a harvest.
             li Never apologize for having high standards. People who really want to be in your life will rise up to meet them.
             li Live in such a way that if someone spoke badly of you no one would believe it.
@@ -301,7 +295,7 @@ html(lang='en')
             li The finest souls are those who gulped pain and avoided making others taste it.
             li Just when the caterpillar thought the world was ending, he turned into a butterfly.
             li
-              +blockquote("When you talk, you are only repeating what you already know. But if you listen, you may learn something new.", "Dalai Llama")
+              +quote("When you talk, you are only repeating what you already know. But if you listen, you may learn something new.", "Dalai Llama")
             li You never stop learning.
             li You're not rich until you have something that money can't buy.
             li The meaning of life is to give life a meaning.
@@ -310,28 +304,28 @@ html(lang='en')
             li People donÄt want to hear the truth because they don't want their illusions destroyed.
             li Before Alice got to Wonderland she had to fall.
             li
-              +blockquote("You never know how strong you are until being strong is the only choice you have.", "Bob Marley")
+              +quote("You never know how strong you are until being strong is the only choice you have.", "Bob Marley")
             li Hearts are wild creatures, that's why your ribs are cages.
             li Worrying is stupid. It's like walking around with an umbrella waiting for it to rain.
             li
-              +blockquote("Never trust your fears. They don't know your strength.", "Athena Singh")
+              +quote("Never trust your fears. They don't know your strength.", "Athena Singh")
             li Failure is success in progress.
             li An arrow can only be shot by pulling it backward. So when life is dragging you back with difficulties, it means that it's going to launch you into something great. So just focus and keep aiming.
             li
-              +blockquote("The two most important days in your life are the day you are born and the day you find out why.", "Mark Twain")
+              +quote("The two most important days in your life are the day you are born and the day you find out why.", "Mark Twain")
             li
-              +blockquote("Don't ever take a fence down until you know why it was put up.", "Robert Frost")
+              +quote("Don't ever take a fence down until you know why it was put up.", "Robert Frost")
             li Not everyone deserves to know the real you. Let them criticise who they think you are.
             li
-              +blockquote("We are all broken. That's how the light gets in.", "Ernest Hemingway")
+              +quote("We are all broken. That's how the light gets in.", "Ernest Hemingway")
             li
-              +blockquote("The storm can be just as beautiful as the rainbow, honor them both.", "Alex Elle")
+              +quote("The storm can be just as beautiful as the rainbow, honor them both.", "Alex Elle")
             li
-              +blockquote("What we see depends mainly on what we look for.", "John Lubbock")
+              +quote("What we see depends mainly on what we look for.", "John Lubbock")
             li
-              +blockquote("If everyone were cast in the same mold, there would be no such thing as beauty.", "Charles Darwin")
+              +quote("If everyone were cast in the same mold, there would be no such thing as beauty.", "Charles Darwin")
             li
-              +blockquote("Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth.", "Marcus Aurelius")
+              +quote("Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth.", "Marcus Aurelius")
             li You can't change the wind, but you can adjust the sail.
             li Walk away from anything that gives you bad vibes. There is no need to explain or make sense of it. It's your life.
             li If your absence doesn't affect them, your presence never mattered.
@@ -351,7 +345,7 @@ html(lang='en')
             li Sometimes, the most important life lessons are the ones we end up learning the hard way.
             li If you cannot do great things, do small things in a great way.
             li
-              +blockquote("Whenever you find yourself doubting how far you can go, just remember how far you have come. Remember everything you have faced, all the battles you have won, and all the fears you have overcome.", "Unknown")
+              +quote("Whenever you find yourself doubting how far you can go, just remember how far you have come. Remember everything you have faced, all the battles you have won, and all the fears you have overcome.", "Unknown")
             li Growth is painful. Change is painful. But nothing is as painful as staying stuck somewhere you don't belong.
             li Make peace with you past, so it doesn't spoil your present.
             li What others think of you is none of your business.
@@ -363,44 +357,44 @@ html(lang='en')
             li Sometimes life is about risking everything for a dream no one can see but you.
             li If you want to achieve greatness, stop asking for permission.
             li
-              +blockquote("Failure is the opportunity to begin again more intelligently.", "Henry Ford")
+              +quote("Failure is the opportunity to begin again more intelligently.", "Henry Ford")
             li Everything in your life is a reflection of a choice you have made. If you want a different result, make a different choice.
             li Sometimes you need to step outside, get some fresh air and remind yourself of who you are and who you want to be.
             li Do it now. Sometimes, <em>"later"</em> becomes <em>"never"</em>.
             li
-              +blockquote("If you can dream it, you can do it", "Walt Disney")
+              +quote("If you can dream it, you can do it", "Walt Disney")
             li
-              +blockquote("The way to get started is to quit talking and start doing.", "Walt Disney")
+              +quote("The way to get started is to quit talking and start doing.", "Walt Disney")
             li
-              +blockquote("It takes twenty years to build a reputation and five minutes to ruin it. If you think about that, you'll do things differently.", "Warren Buffet (CEO of Berkshire Hathaway)")
+              +quote("It takes twenty years to build a reputation and five minutes to ruin it. If you think about that, you'll do things differently.", "Warren Buffet (CEO of Berkshire Hathaway)")
             li
-              +blockquote("Innovation distinguishes between a leader and a follower.", "Steve Jobs (Co-Founder of Apple)")
+              +quote("Innovation distinguishes between a leader and a follower.", "Steve Jobs (Co-Founder of Apple)")
             li
-              +blockquote("I have not failed. I've just found 10'000 ways that won't work.", "Thomas Edison (American Inventor and Businessman)")
+              +quote("I have not failed. I've just found 10'000 ways that won't work.", "Thomas Edison (American Inventor and Businessman)")
             li
-              +blockquote("If you don't build your dream, someone will hire you to help build theirs.", "Tony Gaskins (Motivational Speaker)")
+              +quote("If you don't build your dream, someone will hire you to help build theirs.", "Tony Gaskins (Motivational Speaker)")
             li
-              +blockquote("Don't play games that you don't understand, even if you see lots of people making money from them.", "Tony Hsieh (CEO of Zappos)")
+              +quote("Don't play games that you don't understand, even if you see lots of people making money from them.", "Tony Hsieh (CEO of Zappos)")
             li
-              +blockquote("You don't learn to walk by following rules. You learn by doing and by falling over.", "Richard Branson (Founder of Virgin Group)")
+              +quote("You don't learn to walk by following rules. You learn by doing and by falling over.", "Richard Branson (Founder of Virgin Group)")
             li
-              +blockquote("Never give up, because you never know if the next try is going to be the one that works.", "Mary Kay Ash (Founder of Mary Kay Cosmetics)")
+              +quote("Never give up, because you never know if the next try is going to be the one that works.", "Mary Kay Ash (Founder of Mary Kay Cosmetics)")
             li
-              +blockquote("The fastest way to change yourself is to hang out with people who are already the way you want to be.", "Reid Hoffman (Co-Founder of LinkedIn)")
+              +quote("The fastest way to change yourself is to hang out with people who are already the way you want to be.", "Reid Hoffman (Co-Founder of LinkedIn)")
             li
-              +blockquote("You shouldn't focus on why you can't do something, which is what most people do. You should focus on why perhaps you can and be one of the exceptions.", "Steve Case (Co-Founder of AOL)")
+              +quote("You shouldn't focus on why you can't do something, which is what most people do. You should focus on why perhaps you can and be one of the exceptions.", "Steve Case (Co-Founder of AOL)")
             li
-              +blockquote("In the future, ther will be no female leaders. There will just be leaders.", "Sheryl Sandberg (COO of Facebook)")
+              +quote("In the future, ther will be no female leaders. There will just be leaders.", "Sheryl Sandberg (COO of Facebook)")
             li
-              +blockquote("It's fine to celebrate success but it is more important to heed the lessons of failure.", "Bill Gates (Co-Founder of Microsoft)")
+              +quote("It's fine to celebrate success but it is more important to heed the lessons of failure.", "Bill Gates (Co-Founder of Microsoft)")
             li
-              +blockquote("I choose a lazy person to do a hard job, because a lazy person will find an easy way to do it.", "Bill Gates (Co-Founder of Microsoft)")
+              +quote("I choose a lazy person to do a hard job, because a lazy person will find an easy way to do it.", "Bill Gates (Co-Founder of Microsoft)")
             li
-              +blockquote("Don't worry about failure. You only have to be right once.", "Drew Houston (Founder of Dropbox)")
+              +quote("Don't worry about failure. You only have to be right once.", "Drew Houston (Founder of Dropbox)")
             li
-              +blockquote("Ideas are easy. Implementation is hard.", "Guy Kawasaki (Co-Founder of Alltop)")
+              +quote("Ideas are easy. Implementation is hard.", "Guy Kawasaki (Co-Founder of Alltop)")
             li
-              +blockquote("The most dangerous poison is the felling of achievement. The antidote is to every evening think what can be done better tomorrow.", "Ingvar Kamprad (Founder of IKEA)")
+              +quote("The most dangerous poison is the felling of achievement. The antidote is to every evening think what can be done better tomorrow.", "Ingvar Kamprad (Founder of IKEA)")
             li A drop is an ocean by itself.
             li Say 'Please' and 'Thank you'.
             li Work hard.
@@ -424,56 +418,56 @@ html(lang='en')
             li You only fail when you stop trying.
             li Let it all go. See what stays.
             li
-              +blockquote("Happiness is when you think, what you say, and what you do are in harmony.", "Mahatma Ghandi")
+              +quote("Happiness is when you think, what you say, and what you do are in harmony.", "Mahatma Ghandi")
             li You only live once? False. You live everyday. You only die once.
             li
-              +blockquote("Rule your mind or it will rule you.", "Buddha")
+              +quote("Rule your mind or it will rule you.", "Buddha")
             li You will never meet a person with an easy past.
             li
-              +blockquote("Tell me and I'll forget. Show me and I may remember. Involve me and I learn.", "Benjamin Franklin")
+              +quote("Tell me and I'll forget. Show me and I may remember. Involve me and I learn.", "Benjamin Franklin")
             li
-              +blockquote("Do what you have to do until you can do what you want to do.", "Oprah Winfrey")
+              +quote("Do what you have to do until you can do what you want to do.", "Oprah Winfrey")
             li
-              +blockquote("The future depends on what you do today.", "Mahatma Ghandi")
+              +quote("The future depends on what you do today.", "Mahatma Ghandi")
             li Sometimes following you heart means losing your mind.
             li If they can leave you so easily, they were never really meant for you. Let them go.
             li Throw kindness around like confetti.
             li Never apologize for what you feel. That's like saying sorry for being real.
             li Enjoy the little things in life, for one day you will look back and realize they were the big things.
             li
-              +blockquote("Ignore people who threaten your joy. Literally, ignore them. Say nothing. Don't invite any parts of them into your space.", "Alex Elle (Author)")
+              +quote("Ignore people who threaten your joy. Literally, ignore them. Say nothing. Don't invite any parts of them into your space.", "Alex Elle (Author)")
             li Don't mock a pain that you haven't endured.
             li Sometimes, the person you would take a bullet for ends up being the one behind the gun.
             li You are only responsible for what you say, not for what they understand.
             li Be picky with your clothes, friends and time.
             li Only those who care about you can hear when you are quiet.
             li
-              +blockquote("Never allow someone to be your priority while allowing yourself to be their option.", "Mark Twain")
+              +quote("Never allow someone to be your priority while allowing yourself to be their option.", "Mark Twain")
             li Finding your passion isn't just about careers and money. It's about finding your authentic self. The one you have buried beneath other people's needs.
             li Be sure to taste your words before you spit them out.
             li The distance between dreams and reality is called action.
             li Sometimes you have to accept the fact that certain things will never go back to how they use to be.
             li Only dead fish go with the flow.
             li
-              +blockquote("If you can't do anything about then let it go. Don't be prisoner to things you can't change.", "Tony Gaskins (Motivational Speaker)")
+              +quote("If you can't do anything about then let it go. Don't be prisoner to things you can't change.", "Tony Gaskins (Motivational Speaker)")
             li You can't change what's going on around you until you start changing what's going on within you.
             li The smarter you get, the less you speak.
             li
-              +blockquote("Cinderella didn't ask for a prince. She asked for a night off and a dress.", "Kiera Cass (Author)")
+              +quote("Cinderella didn't ask for a prince. She asked for a night off and a dress.", "Kiera Cass (Author)")
             li In life, it's important to know when to stop arguing with people - and simly let them be wrong.
             li Do you want to be happy? Let go of what's gone, be grateful for what remains and look forward to what is coming.
             li The best relationship is when you can lay next to each other and just talk about anything and everything.
             li
-              +blockquote("A soulmate is someone who appreciates your level of weird.", "Bill Murray (Actor)")
+              +quote("A soulmate is someone who appreciates your level of weird.", "Bill Murray (Actor)")
             li Don't expect people to change.
             li Not everyone deserves to know the real you. Let them criticize who they think you are.
             li Sometimes you gotta play the role of a fool to fool the fool who thinks they are fooling you.
             li
-              +blockquote("Be careful. Not all are what they seem. Some people pretend to be the beach, but they are actually quicksand.", "Steve Maraboli (Speaker and Author)")
+              +quote("Be careful. Not all are what they seem. Some people pretend to be the beach, but they are actually quicksand.", "Steve Maraboli (Speaker and Author)")
             li
-              +blockquote("We are only as blind as we want to be.", "Maya Angelou (Author)")
+              +quote("We are only as blind as we want to be.", "Maya Angelou (Author)")
             li
-              +blockquote("Without a sense of urgency, desire loses its value.", "Jim Rohn (Entrepreneur, Motivational Speaker and Author)")
+              +quote("Without a sense of urgency, desire loses its value.", "Jim Rohn (Entrepreneur, Motivational Speaker and Author)")
             li Stop putting an effort into those who show no effort towards you. There is only so much you can do before you are wasting your energy and time.
             li Not everyone you lose is a loss.
             li Be strong, but not rude. Be kind, but not weak. Be humble, but not timid. Be proud, but not arrogant.
@@ -489,7 +483,7 @@ html(lang='en')
             li Dreams don't work unless you do.
             li You are always one decision away from a totally different life.
             li
-              +blockquote("Beginnings are usually scary and endings are usually sad, but it's everything in between that makes it all worth.", "Bob Marley")
+              +quote("Beginnings are usually scary and endings are usually sad, but it's everything in between that makes it all worth.", "Bob Marley")
             li If they want you in their life, they will put you there. You shouldn't have to fight for a spot.
             li Don't fell guilty for doing what is best for you.
             li Having a soft heart in a cruel world is courage, not weakness.
@@ -525,37 +519,37 @@ html(lang='en')
             li It all begins and ends in your mind. What you give power to, has power over you, if you allow it.
             li You can do anything, but not everything.
             li
-              +blockquote("If another can easily anger you, it is because you are off balance with yourself.", "Bruce Lee")
+              +quote("If another can easily anger you, it is because you are off balance with yourself.", "Bruce Lee")
             li
-              +blockquote("If you sepnd too much time thinking about a thing you will never get it done. Make at least one definite move daily toward your goal.", "Bruce Lee")
+              +quote("If you sepnd too much time thinking about a thing you will never get it done. Make at least one definite move daily toward your goal.", "Bruce Lee")
             li
-              +blockquote("Holding onto anger is like drinking poison and expecting the other person to die.", "Buddha")
+              +quote("Holding onto anger is like drinking poison and expecting the other person to die.", "Buddha")
             li
-              +blockquote("Don't forget: no one else sees the world the way you do, so no one else can tell the stories that you have to tell.", "Charles de Lint (Author)")
+              +quote("Don't forget: no one else sees the world the way you do, so no one else can tell the stories that you have to tell.", "Charles de Lint (Author)")
             li
-              +blockquote("Life really does begin at forty. Up until then, you are just doing research.", "Carl Gustav Jung (Psychiatrist)")
+              +quote("Life really does begin at forty. Up until then, you are just doing research.", "Carl Gustav Jung (Psychiatrist)")
             li
-              +blockquote("If you obey all the rules, you miss all the fun.", "Katharine Hepburn (Actress)")
+              +quote("If you obey all the rules, you miss all the fun.", "Katharine Hepburn (Actress)")
             li
-              +blockquote("Try to be the rainbow in someone's cloud.", "Maya Angelou (Poet and civil rights activist)")
+              +quote("Try to be the rainbow in someone's cloud.", "Maya Angelou (Poet and civil rights activist)")
             li
-              +blockquote("Done is better than perfect.", "Sheryl Sandberg (Facebook COO)")
+              +quote("Done is better than perfect.", "Sheryl Sandberg (Facebook COO)")
             li
-              +blockquote("Passion is energy. Fee the power that comes from focusing on what excites you.", "Oprah Winfrey (Talk show host)")
+              +quote("Passion is energy. Fee the power that comes from focusing on what excites you.", "Oprah Winfrey (Talk show host)")
             li
-              +blockquote("The best and most beautiful things in the world cannot be seen or even touched. They must be felt with the heart.", "Helen Keller (Author)")
+              +quote("The best and most beautiful things in the world cannot be seen or even touched. They must be felt with the heart.", "Helen Keller (Author)")
             li
-              +blockquote("Learn from the mistakes of others. You can't live long enough to make them all yourself.", "Eleanor Roosevelt (Politician and activist)")
+              +quote("Learn from the mistakes of others. You can't live long enough to make them all yourself.", "Eleanor Roosevelt (Politician and activist)")
             li
-              +blockquote("Not all of us can do great things. But we can do small things with great love.", "Mother Theresa")
+              +quote("Not all of us can do great things. But we can do small things with great love.", "Mother Theresa")
             li
-              +blockquote("Nothing is impossible. The word itself say <q>I'm possible</q>.", "Audrey Hepburn (Actress)")
+              +quote("Nothing is impossible. The word itself say <q>I'm possible</q>.", "Audrey Hepburn (Actress)")
             li
-              +blockquote("The measure of intelligence is the ability to change.", "Albert Einstein")
+              +quote("The measure of intelligence is the ability to change.", "Albert Einstein")
             li
-              +blockquote("It is not our abilities that show what we truly are. It is our choices.", "Albus Dumbledore (Harry Potter)")
+              +quote("It is not our abilities that show what we truly are. It is our choices.", "Albus Dumbledore (Harry Potter)")
             li
-              +blockquote("All men have limits. They learn what they are and learn not to exceed them. I ignore mine.", "Batman")
+              +quote("All men have limits. They learn what they are and learn not to exceed them. I ignore mine.", "Batman")
 
     .container
       .row
