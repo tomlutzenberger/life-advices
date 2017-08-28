@@ -4,32 +4,30 @@ mixin quote(text, name)
     q!= text
     footer= name
 
-
 //- Markup
 doctype html
-html(lang='en')
+html(lang="en")
   head
-    meta(charset='utf-8')
-    meta(http-equiv='X-UA-Compatible' content='IE=edge')
-    meta(name='viewport' content='width=device-width, initial-scale=1')
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
 
     title= 'Life advices'
-    meta(name='description' content='A collection of helpful life advices - carefully curated with ❤ by Tom Lutzenberger')
-    meta(name='robots' content='index,follow,noodp')
+    meta(name="description" content="A collection of helpful life advices - carefully curated with ❤ by Tom Lutzenberger")
+    meta(name="robots" content="index,follow,noodp")
 
-    meta(property='og:url' content='https://tomlutzenberger.github.io/life-advices/')
-    meta(property='og:type' content='website')
-    meta(property='og:title' content='Life advices')
-    meta(property='og:image' content='https://tomlutzenberger.github.io/life-advices/assets/banner.png')
-    meta(property='og:description' content='A collection of helpful life advices - carefully curated with ❤ by Tom Lutzenberger')
-    meta(property='og:site_name' content='Life advices')
-    meta(property='og:locale' content='en_US')
+    meta(property="og:url" content="https://tomlutzenberger.github.io/life-advices/")
+    meta(property="og:type" content="website")
+    meta(property="og:title" content="Life advices")
+    meta(property="og:image" content="https://tomlutzenberger.github.io/life-advices/assets/banner.png")
+    meta(property="og:description" content="A collection of helpful life advices - carefully curated with ❤ by Tom Lutzenberger")
+    meta(property="og:site_name" content="Life advices")
+    meta(property="og:locale" content="en_US")
 
-    link(href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u' crossorigin='anonymous')
-    link(href='https://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet')
+    link(href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous")
+    link(href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet")
     noscript
-      link(href='https://use.fontawesome.com/62e8ca775a.css' rel='stylesheet')
-
+      link(href="https://use.fontawesome.com/62e8ca775a.css" rel="stylesheet")
 
     style
       != 'body { font-family: "Libre Baskerville", serif; }'
@@ -48,7 +46,7 @@ html(lang='en')
       != '.btn-github:hover, .btn-github:active, .btn-github:focus { background: #fff; color: #333; }'
   body
 
-    .container(role='main')
+    .container(role="main")
       .row
         .col-xs-12.col-sm-8.col-sm-offset-2.col-md-6.col-md-offset-3
           .text-center
@@ -654,30 +652,27 @@ html(lang='en')
             li If you don't ask, you don't get.
             li Life isn't tied with a bow, but it's still a gift.
 
-
     .container
       .row
         .col-xs-12
           hr
           footer.text-center
             p
-              a.btn.btn-sm.btn-facebook(href='https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftomlutzenberger.github.io%2Flife-advices%2F' target='_blank')
-                i.fa.fa-fw.fa-lg.fa-facebook
+              a.btn.btn-sm.btn-facebook(href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftomlutzenberger.github.io%2Flife-advices%2F" title="Share on Facebook" target="_blank")
+                span.fa.fa-fw.fa-lg.fa-facebook
                 != '&nbsp;Share'
-
               != '&nbsp;'
 
-              a.btn.btn-sm.btn-twitter(href='https://twitter.com/share?text=Life%20advices%20-%20A%20collection%20of%20helpful%20life%20advices&url=https%3A%2F%2Ftomlutzenberger.github.io%2Flife-advices%2F&via=t0mlutzenberger&hashtags=life%2Cadvice' target='_blank')
-                i.fa.fa-fw.fa-lg.fa-twitter
+              a.btn.btn-sm.btn-twitter(href="https://twitter.com/share?text=Life%20advices%20-%20A%20collection%20of%20helpful%20life%20advices&url=https%3A%2F%2Ftomlutzenberger.github.io%2Flife-advices%2F&via=t0mlutzenberger&hashtags=life%2Cadvice" title="Share on Twitter" target="_blank")
+                span.fa.fa-fw.fa-lg.fa-twitter
                 != '&nbsp;Tweet'
-
               != '&nbsp;'
 
-              a.btn.btn-sm.btn-github(href='https://github.com/tomlutzenberger/life-advices' title='Contribute on GitHub' target='_blank')
-                i.fa.fa-fw.fa-lg.fa-github
+              a.btn.btn-sm.btn-github(href="https://github.com/tomlutzenberger/life-advices" title="Contribute on GitHub" target="_blank")
+                span.fa.fa-fw.fa-lg.fa-github
                 != '&nbsp;Contribute'
 
             p
               != '2017 by Tom Lutzenberger'
 
-    script(src='https://use.fontawesome.com/62e8ca775a.js')
+    script(src="https://use.fontawesome.com/62e8ca775a.js")
