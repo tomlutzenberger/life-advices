@@ -1,17 +1,14 @@
 {
-  "name": "Life Advices",
+  "name": "life-advices",
   "version": "1.0.0",
   "description": "A collection of helpful life advices",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tomlutzenberger/life-advices.git"
   },
   "keywords": [
-    "Life",
+    "life",
     "advice"
   ],
   "author": "Tom Lutzenberger",
@@ -19,5 +16,18 @@
   "bugs": {
     "url": "https://github.com/tomlutzenberger/life-advices/issues"
   },
-  "homepage": "https://tomlutzenberger.github.io/life-advices/"
+  "homepage": "https://tomlutzenberger.github.io/life-advices/",
+  "scripts": {
+    "pug": "pug index.pug",
+    "pug:watch": "pug index.pug --watch",
+    "lint:pug": "pug-lint --config .pug-lintrc index.pug",
+    "lint:html": "htmlhint --config .htmlhintrc index.html",
+    "lint": "yarn run lint:pug && yarn run lint:html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "htmlhint": "^0.9.13",
+    "pug-cli": "^1.0.0-alpha6",
+    "pug-lint": "^2.4.0"
+  }
 }
